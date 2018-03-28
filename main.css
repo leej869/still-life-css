@@ -1,0 +1,218 @@
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 1000px;
+  height: 700px;
+  background: white;
+  margin: 30px auto;
+  position: relative;
+}
+
+
+/* Your CSS goes here */
+
+
+.book-one{
+
+}
+
+.table{
+	border-bottom: 100px solid #d3bcb0;
+	border-left: 20px solid transparent;
+	border-right: 110px solid transparent;
+	height: 0;
+	width: 490px;
+	position:absolute;
+	top:510px;
+	left:220px;
+	z-index: 1;
+}
+
+.flower{
+	width: 70px;
+	height: 180px;
+	background: #b8cdcf;
+	position: absolute;
+	top: 380px;
+	left: 570px;
+	z-index: 2;
+	opacity: 0.5;
+}
+
+.flower-2{
+	width: 5px;
+	height: 180px;
+	-webkit-transform: skew(10deg);
+	   -moz-transform: skew(10deg);
+	     -o-transform: skew(10deg);
+	background: green;
+	position: absolute;
+	top: 310px;
+	left: 590px;
+	z-index: 1;
+}
+
+.flower-3{
+	width: 5px;
+	height: 180px;
+	-webkit-transform: skew(-10deg);
+	   -moz-transform: skew(-10deg);
+	     -o-transform: skew(-10deg);
+	background: green;
+	position: absolute;
+	top: 290px;
+	left: 610px;
+	z-index: 1;
+}
+
+.flower-4{
+	width: 5px;
+	height: 180px;
+	-webkit-transform: skew(-3deg);
+	   -moz-transform: skew(-3deg);
+	     -o-transform: skew(-3deg);
+	background: green;
+	position: absolute;
+	top: 280px;
+	left: 600px;
+	z-index: 1;
+}
+
+
+.fruit-1{
+	width: 140px;
+	height: 100px;
+	background: #e6b642;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	position: absolute;
+	top: 470px;
+	left: 520px;
+	z-index: 3;
+}
+
+.fruit-2{
+	width: 60px;
+	height: 60px;
+	background: #fa9620;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position: absolute;
+	top: 520px;
+	left: 530px;
+	z-index: 4;
+}
+
+.fruit-3{
+	width: 60px;
+	height: 60px;
+	background: #fa9620;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position: absolute;
+	top: 515px;
+	left: 470px;
+	z-index: 4;
+	}
+
+.book-one{
+	width: 150px;
+	height: 30px;
+	background: #f2b99f;
+	position: absolute;
+	top: 465px;
+	left: 320px;
+	z-index: 4;
+}
+
+.book-one1{
+	width: 150px;
+	height: 20px;
+	-webkit-transform: skew(-30deg);
+	   -moz-transform: skew(20deg);
+	     -o-transform: skew(20deg);
+	background: #f8dedc;
+	position: absolute;
+	top: 445px;
+	left: 326px;
+}
+
+.book-three{
+	width: 200px;
+	height: 40px;
+	background: #0b0a0a;
+	position: absolute;
+	top: 525px;
+	left: 310px;
+	z-index: 2;
+}
+.book-three1{
+	width: 200px;
+	height: 26px;
+	-webkit-transform: skew(30deg);
+	   -moz-transform: skew(20deg);
+	     -o-transform: skew(20deg);
+	background: #383131;
+	position: absolute;
+	top: 500px;
+	left: 303px;
+	z-index: 2;
+}
+
+.book-two{
+	  position: absolute;
+	  top: 497px;
+	  left: 340px;
+	  text-align: center;
+	  padding: 12px;
+	  margin-bottom: 4px;
+	  height: 3px;
+	  width: 170px;
+	  z-index: 3;
+}
+.book-two:before {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 0;
+  height: 100%;
+  width: 40%;
+  background: #ecedf3;
+  -webkit-transform: skew(0deg, 6deg);
+  -moz-transform: skew(0deg, 6deg);
+  -ms-transform: skew(0deg, 6deg);
+  -o-transform: skew(0deg, 6deg);
+  transform: skew(0deg, 6deg);
+}
+.book-two:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 60%;
+  background: #b6baa5;
+  -webkit-transform: skew(0deg, -6deg);
+  -moz-transform: skew(0deg, -6deg);
+  -ms-transform: skew(0deg, -6deg);
+  -o-transform: skew(0deg, -6deg);
+  transform: skew(0deg, -6deg);
+}​
+
+
+
+
+
+
+
+
+
+
+
+
+
